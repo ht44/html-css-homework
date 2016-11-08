@@ -1,0 +1,73 @@
+ * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("http://hdwallpaperdaily.com/wp-content/uploads/2014/01/brown-french-bulldog-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.wrapper {
+  /*width: 700px;*/
+  width: 50%;
+  /*margin: auto;*/
+  /*float: right;*/
+  margin-left: 66px;
+}
+
+img {
+  width: 100%;
+}
+
+header, footer {
+  height: 100px;
+  /*background-color: #1f3154;*/
+  background-color: rgba(31,49,84,0.75);
+  color: white;
+  text-align: center;
+}
+
+footer {
+  padding-top: 1rem;
+}
+
+header h1 {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  font-size: 60px;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+main {
+ /*background-color: #b0b7a7;*/
+ background-color: rgba(176,183,167,0.75);
+ padding-bottom: 0.5rem;
+}
+
+p, li {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+ul {
+  float: right;
+}
+
+hr {
+  clear: both;
+}
+
+a:link {color: pink;}
+a:visited {color: #ffdd00;}
+a:hover {color: #15ff00;}
+a:active: {color: white;}
